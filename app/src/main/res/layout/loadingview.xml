@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xinheng.frame.ui.view.loadingview.LoadingView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent" >
+    <RelativeLayout
+        android:id="@+id/rl_loading"
+        android:layout_width="fill_parent"
+        android:background="#ffffff"
+        android:layout_height="fill_parent">
+        <ProgressBar
+            android:id="@+id/loading_progressBar"
+            style="@android:style/Widget.ProgressBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/tip_txt"
+            android:paddingBottom="10dp" />
+        <TextView
+            android:id="@+id/tip_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/requesting_text"
+            android:textColor="#98a5ac"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_no_net"
+        android:layout_width="fill_parent"
+        android:background="#ffffff"
+        android:visibility="gone"
+        android:layout_height="fill_parent">
+        <ImageView
+            android:id="@+id/iv_load_no_net"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/tv_load_no_net_txt"
+            android:background="@drawable/laoding_no_net"/>
+
+        <TextView
+            android:id="@+id/tv_load_no_net_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/network_unavailable"
+            android:textColor="#98a5ac"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_error"
+        android:layout_width="fill_parent"
+        android:background="#ffffff"
+        android:visibility="gone"
+        android:layout_height="fill_parent">
+        <ImageView
+            android:id="@+id/iv_load_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/tv_load_txt"
+            android:background="@drawable/loading_error"/>
+
+        <TextView
+            android:id="@+id/tv_load_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/requesting_failure"
+            android:textColor="#98a5ac"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical"/>
+    </RelativeLayout>
+
+</com.xinheng.frame.ui.view.loadingview.LoadingView>

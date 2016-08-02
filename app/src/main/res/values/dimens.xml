@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <!--项目-->
+    <dimen name="status_bar_height">48dp</dimen>
+    <dimen name="status_bar_center_txt_size">18sp</dimen>
+    <dimen name="font_size_one">16sp</dimen>
+    <dimen name="font_size_two">14sp</dimen>
+    <dimen name="font_size_three">12sp</dimen>
+
+</resources>

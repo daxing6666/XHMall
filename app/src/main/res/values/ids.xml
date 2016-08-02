@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 定义请求的标示符 -->
+<resources>
+  <item type="id" name="onLoading"/>
+  <!--有关数据库的操作-->
+  <item type="id" name="jack"/>
+
+  <!--访问网络标示-->
+  <item type="id" name="userlogin"/>
+
+</resources>

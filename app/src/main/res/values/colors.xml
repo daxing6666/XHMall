@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="material_red">#ffF44336</color>
+    <color name="material_green">#ff4CAF50</color>
+    <color name="material_blue">#ff03A9F4</color>
+    <color name="material_yellow">#ffFFEB3B</color>
+
+    <!--Material Design之RippleView-->
+    <color name="rippelColor">#FFFFFF</color>
+
+    <!--项目-->
+    <color name="green">#4CAF50</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="line">#dbdbdb</color>
+    <color name="default_text_color">#c9c9c9</color>
+    <color name="background">#f1f1f1</color>
+
+</resources>
